@@ -1,0 +1,102 @@
+/* General styles */
+body {
+  font-family: 'IM Fell English', serif; /* Old-style serif font */
+  background-color: #1a1a1a; /* Dark, ominous background */
+  color: #e5e5e5; /* Light gray for readability */
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+header {
+  background-color: #2d2d2d; /* Slightly lighter gray for contrast */
+  color: #b71b1b; /* Deep blood red */
+  text-align: center;
+  padding: 20px;
+  border-bottom: 3px solid #5c2a2a; /* Crimson trim */
+}
+
+header h1 {
+  font-size: 3em;
+  margin: 0;
+  text-shadow: 2px 2px 4px #000; /* Subtle shadow for drama */
+}
+
+header p {
+  font-style: italic;
+  margin-top: 10px;
+}
+
+/* Navigation styles */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #000000; /* Pitch black for intensity */
+  border-top: 3px solid #b71b1b;
+  border-bottom: 3px solid #b71b1b;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #e5e5e5; /* Pale text for contrast */
+  padding: 10px 20px;
+  display: block;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  background-color: #5c2a2a; /* Crimson hover effect */
+  color: #1a1a1a; /* Dark text for contrast */
+}
+
+/* Main content styles */
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+main h2 {
+  color: #b71b1b; /* Deep blood red */
+  font-size: 2.5em;
+  text-shadow: 2px 2px 6px #000; /* Dark shadow for mystique */
+}
+
+main p {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+/* Footer styles */
+footer {
+  background-color: #2d2d2d;
+  color: #b71b1b;
+  text-align: center;
+  padding: 10px;
+  border-top: 3px solid #5c2a2a;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.9em;
+}
+
+/* Additional Elements (Optional) */
+img {
+  border: 3px solid #5c2a2a; /* Gothic-style image border */
+  box-shadow: 5px 5px 15px #000; /* Shadow for a dramatic effect */
+}
+
+a {
+  color: #b71b1b; /* Accent links with blood red */
+}
+
+a:hover {
+  color: #e5e5e5; /* Lighten links when hovered */
+}
